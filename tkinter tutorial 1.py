@@ -1,3 +1,4 @@
+# Tutorial one for basic widget overview
 import tkinter as tk
 from tkinter import ttk
 
@@ -39,6 +40,7 @@ button.pack()
 exercise_button = ttk.Button(master = window, text = 'exercise button', 
                           command = lambda: print('hello'))
 exercise_button.pack()
+
 
 # exercise
 # add one more text label and a 
